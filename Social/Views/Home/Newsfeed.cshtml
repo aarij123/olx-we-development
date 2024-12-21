@@ -1,0 +1,81 @@
+﻿@model  IEnumerable<Social.Models.ad>
+@{
+    ViewBag.Title = "Newsfeed";
+    Layout = "~/_LayoutPage2.cshtml";
+    var category = ViewBag.catlist;
+}
+<div class="container">
+    <div class="row"><br /><br /><br /></div>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3">
+          <div class="col-md-12">
+              <ul class="list-group">
+                  <li class="list-group-item list-group-item-dark"> <h6>Categories</h6></li>
+                  
+                  @foreach (var item in ViewBag.catlist)
+
+                  {
+                      string catname = item.adcat_name;
+                      @Html.ActionLink(catname, "Newsfeed", new { name = catname}, new { @class = "list-group-item list-group-item-action" })
+          
+                  }
+              </ul>
+
+          </div>
+          <br />
+         
+          <div class="col-md-12">
+              <div class="list-group">
+                  <div class="list-group-item list-group-item-dark"> <h6>Suggestion</h6></div>
+                  <br>
+                  @foreach (var item in ViewBag.suggestion)
+
+                  {
+                      string catname = item.user_fname;
+                      int id = item.user_id;
+                      string img = item.user_imgpath;
+                    <img src="~/Images/@item.user_imgpath" alt="Card image cap" width="225" height="100">
+                
+                      @Html.ActionLink(catname, "home_userprofile", new { id = id }, new { @class = "list-group-item list-group-item-action" })
+
+                  }
+                  <br />
+              </div>
+
+          </div>
+      </div>
+        <div class="col-md-9">
+            <div class="row">
+             
+                @foreach (var item in Model)
+                {
+
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="~/Images/@item.ad_img1" alt="Card image cap" width="230" height="200">
+                    <div class="card-body">
+                        <p class="card-text">@item.ad_title</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                @Html.ActionLink("View", "home_addetail", new
+                           { id = @item.ad_id }, new { @class = "btn btn-sm btn-outline-secondary" })
+
+                            </div>
+                            <small class="text-muted">@item.ad_datetime</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                }
+                </div>
+        </div>
+         
+
+        <!----ending card body-->
+
+    </div>
+</div>
+

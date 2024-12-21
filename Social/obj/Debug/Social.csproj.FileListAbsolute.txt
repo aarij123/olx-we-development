@@ -1,0 +1,190 @@
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\ApplicationInsights.config
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\csc.exe
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\vbc.exe
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Social.dll.config
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Social.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Social.pdb
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.Web.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Helpers.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Mvc.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Razor.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Webpages.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Webpages.Razor.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.Web.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Razor.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Webpages.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Webpages.Razor.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Helpers.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\bin\System.Web.Mvc.xml
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\obj\Debug\Social.csprojResolveAssemblyReference.cache
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\obj\Debug\Social.dll
+C:\Users\Hasnain Naseem\Documents\Visual Studio 2015\Projects\Social\Social\obj\Debug\Social.pdb
+F:\Windows Data\Projects\Social1\Social\obj\Debug\Social.csprojResolveAssemblyReference.cache
+F:\Windows Data\Projects\Social1\Social\obj\Debug\Social.dll
+F:\Windows Data\Projects\Social1\Social\obj\Debug\Social.pdb
+F:\Windows Data\Projects\Social1\Social\bin\ApplicationInsights.config
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\csc.exe
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\System.Collections.Immutable.dll
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\System.Reflection.Metadata.dll
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\vbc.exe
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\VBCSCompiler.exe
+F:\Windows Data\Projects\Social1\Social\bin\roslyn\VBCSCompiler.exe.config
+F:\Windows Data\Projects\Social1\Social\bin\Social.dll.config
+F:\Windows Data\Projects\Social1\Social\bin\Social.dll
+F:\Windows Data\Projects\Social1\Social\bin\Social.pdb
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.DependencyCollector.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.Web.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.WindowsServer.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.ApplicationInsights.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.Web.Infrastructure.dll
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Helpers.dll
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Mvc.dll
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Razor.dll
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Webpages.Deployment.dll
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Webpages.dll
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Webpages.Razor.dll
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.DependencyCollector.xml
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.Web.xml
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.AI.WindowsServer.xml
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.ApplicationInsights.xml
+F:\Windows Data\Projects\Social1\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Razor.xml
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Webpages.xml
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Webpages.Deployment.xml
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Webpages.Razor.xml
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Helpers.xml
+F:\Windows Data\Projects\Social1\Social\bin\System.Web.Mvc.xml
+I:\8th semester\software engineering\Social1\Social\bin\ApplicationInsights.config
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\csc.exe
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\System.Collections.Immutable.dll
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\System.Reflection.Metadata.dll
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\vbc.exe
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\VBCSCompiler.exe
+I:\8th semester\software engineering\Social1\Social\bin\roslyn\VBCSCompiler.exe.config
+I:\8th semester\software engineering\Social1\Social\bin\Social.dll
+I:\8th semester\software engineering\Social1\Social\bin\Social.pdb
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.Agent.Intercept.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.DependencyCollector.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.Web.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.WindowsServer.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.ApplicationInsights.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\8th semester\software engineering\Social1\Social\bin\mscorlib.dll
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Helpers.dll
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Mvc.dll
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Razor.dll
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Webpages.Deployment.dll
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Webpages.dll
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Webpages.Razor.dll
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.DependencyCollector.xml
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.Web.xml
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.AI.WindowsServer.xml
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.ApplicationInsights.xml
+I:\8th semester\software engineering\Social1\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Razor.xml
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Webpages.xml
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Webpages.Deployment.xml
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Webpages.Razor.xml
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Helpers.xml
+I:\8th semester\software engineering\Social1\Social\bin\System.Web.Mvc.xml
+I:\8th semester\software engineering\Social1\Social\bin\normidna.nlp
+I:\8th semester\software engineering\Social1\Social\bin\normnfc.nlp
+I:\8th semester\software engineering\Social1\Social\bin\normnfd.nlp
+I:\8th semester\software engineering\Social1\Social\bin\normnfkc.nlp
+I:\8th semester\software engineering\Social1\Social\bin\normnfkd.nlp
+I:\8th semester\software engineering\Social1\Social\obj\Debug\Social.csprojResolveAssemblyReference.cache
+I:\8th semester\software engineering\Social1\Social\obj\Debug\Social.dll
+I:\8th semester\software engineering\Social1\Social\obj\Debug\Social.pdb
+C:\Users\aarij\Desktop\Social1\Social\bin\ApplicationInsights.config
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\csc.exe
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\vbc.exe
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\VBCSCompiler.exe
+C:\Users\aarij\Desktop\Social1\Social\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\aarij\Desktop\Social1\Social\bin\Social.dll.config
+C:\Users\aarij\Desktop\Social1\Social\bin\Social.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Social.pdb
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.Web.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.ApplicationInsights.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Helpers.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Mvc.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Razor.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Webpages.Deployment.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Webpages.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Webpages.Razor.dll
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.Web.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.ApplicationInsights.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Razor.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Webpages.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Webpages.Deployment.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Webpages.Razor.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Helpers.xml
+C:\Users\aarij\Desktop\Social1\Social\bin\System.Web.Mvc.xml
+C:\Users\aarij\Desktop\Social1\Social\obj\Debug\Social.csproj.AssemblyReference.cache
+C:\Users\aarij\Desktop\Social1\Social\obj\Debug\Social.csproj.CoreCompileInputs.cache
+C:\Users\aarij\Desktop\Social1\Social\obj\Debug\Social.csproj.Up2Date
+C:\Users\aarij\Desktop\Social1\Social\obj\Debug\Social.dll
+C:\Users\aarij\Desktop\Social1\Social\obj\Debug\Social.pdb

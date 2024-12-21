@@ -1,0 +1,95 @@
+﻿@model  Social.Models.ad
+@{
+    ViewBag.Title = "home_userprofile";
+    Layout = "~/_LayoutPage2.cshtml";
+}
+<div class="container">
+    <div class="row"><br /></div>
+</div>
+<div class="container" style="background-color:#FAFAFA">
+    <div class="row">
+        <div class="col-lg-4">
+            <br />
+        
+            <img src="~/Images/@Model.user_imgpath" class="img-fluid" alt="avatar" style="height:300px">
+      
+        </div>
+        <div class="col-lg-8">
+           
+            <br />
+                <div class="" id="profile">
+                    <h5 class="mb-3">User Profile</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                          
+                            <h6>Firstname</h6>
+                            <p>
+                            @Model.user_fname
+                            </p>
+                            <h6>Lastname</h6>
+                            <p>
+                                @Model.user_lname
+                            </p>
+                            <h6>Email</h6>
+                            <p>
+                                @Model.user_email
+                            </p>
+                            <h6>Contact</h6>
+                            <p>
+                                @Model.user_contact
+                            </p>
+                            <h6>Gender</h6>
+                            <p>
+                                @Model.user_gender
+                            </p>
+                            <h6>Address</h6>
+                             <p>
+                                 @Model.user_address
+                            </p>
+                            <h6>City</h6>
+                            <p>
+                                @Model.user_city
+                            </p>
+                        </div>
+                       
+                    </div>
+                    <!--/row-->
+                
+             
+            </div>
+        </div>
+      
+    </div>
+</div>
+
+
+<div class="container" style="background-color:#FAFAFA">
+    <br />
+    <hr />
+    <h4>Ads</h4>
+    <hr />
+    <div class="row">
+      @foreach (var item in ViewBag.adlist)
+      { 
+          <div class="col-md-3">
+                
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="~/Images/@item.ad_img1" alt="Card image cap" width="230" height="200">
+                    <div class="card-body">
+                        <p class="card-text">@item.ad_title</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                @Html.ActionLink("View", "home_addetail", new
+                           { id = @item.ad_id }, new { @class = "btn btn-sm btn-outline-secondary" })
+
+                            </div>
+                            <small class="text-muted">@item.ad_datetime</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        }
+
+    </div>
+</div>

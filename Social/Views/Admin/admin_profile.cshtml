@@ -1,0 +1,82 @@
+﻿@model  IEnumerable<Social.Models.user_queries>
+@{
+    ViewBag.Title = "admin_profile";
+    Layout = "~/Adminpanel.cshtml";
+}
+<br /><br /><br /><hr />
+<h4 class="mb-3">Admin Profile</h4><hr />
+<div class="container">
+    <div class="row">
+   
+        <div class="col-lg-8">
+
+         
+            <br />
+            <div class="" id="profile">
+          
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                    <div class="col-md-6">
+
+                        <h6>Firstname</h6>
+                        <p>
+                    @item.user_fname
+                        </p>
+                        <h6>Lastname</h6>
+                        <p>
+                     @item.user_lname
+                        </p>
+                        <h6>Email</h6>
+                        <p>
+                          @item.user_email
+                        </p>
+                        <h6>Password</h6>
+                        <p>
+                            @item.user_pass
+                        </p>
+                        </div>
+                    <div class="col-md-6">
+                        <h6>Contact</h6>
+                        <p>
+                        @item.user_contact
+                        </p>
+                        <h6>Gender</h6>
+                        <p>
+                      @item.user_gender
+                        </p>
+                        <h6>Address</h6>
+                        <p>
+                        @item.user_address
+                        </p>
+                        <h6>City</h6>
+                        <p>
+                      @item.user_city
+                        </p>
+                    </div>
+                    }
+                </div>
+                <!--/row-->
+
+             
+
+            </div><br /><br />
+            @foreach (var item in Model)
+            {
+                @Html.ActionLink("Edit Profile", "admin_edituser", new { id = item.user_id }, new { @class = "btn btn-dark btn-outline-secondary" })
+                        
+                @Html.ActionLink("Add New", "admin_adduser", new { @*id = @item.user_id*@ }, new { @class = "btn btn-dark btn-outline-secondary" })
+                
+            }
+        </div>
+        <div class="col-lg-4">
+            <br />
+            @foreach (var item in Model)
+            {
+            <img src="~/Images/@item.user_imgpath" class="mx-auto img-fluid" alt="avatar" style="height:250px; width:230px;">
+                
+            }
+        </div>
+
+    </div>
+</div>

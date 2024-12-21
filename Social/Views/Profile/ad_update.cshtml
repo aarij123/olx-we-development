@@ -1,0 +1,65 @@
+﻿@model Social.Models.ad
+
+@{
+    ViewBag.Title = "ad_update";
+    Layout = "~/_LayoutPage1.cshtml";
+}
+
+ <!-- Start of Profile section, Update Advertise-->
+<div class="" id="nav-addnew" role="tabpanel" aria-labelledby="nav-addnew-tab">
+    <br>
+    <h3>Update Your Ad</h3><hr />
+
+    <form method="post" enctype="multipart/form-data">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ad_id)
+        @Html.HiddenFor(model => model.ad_img1)
+        @Html.HiddenFor(model => model.ad_img2)
+        @Html.HiddenFor(model => model.ad_img3)
+        @Html.HiddenFor(model => model.ad_img4)
+        <div class="form-group">
+            <label for="">Ad Title</label>
+            @Html.EditorFor(model => model.ad_title, new { htmlAttributes = new { @class = "form-control" }, id = "ad_title" })
+        </div>
+        <div class="form-group">
+            <label for="">Select Category</label>
+
+            @Html.DropDownListFor(model => model.adcat_name, new SelectList(ViewBag.adcat_list, "adcat_name", "adcat_name"), "Please Select",
+                   new { @class = "form-control", id = "ad_category" })
+        </div>
+        <div class="form-group">
+            <label for="">Price</label>
+            @Html.EditorFor(model => model.ad_price, new { htmlAttributes = new { @class = "form-control" }, id = "ad_title" })
+        </div>
+
+        <div class="form-group">
+            <label for="">Description</label>
+            @Html.TextAreaFor(model => model.ad_desc, new { @class = "form-control", @cols = 40, @rows = 3, id = "ad_desc" })
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="file" name="ad_img" id="ad_img" multiple />
+            </div>
+            <div class="form-group col-md-6">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <button type="submit" class="btn btn-dark">Update Add</button>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+</div>
+
+
+
+
+<!-- END of profile section,Update Advertise-->
+
+

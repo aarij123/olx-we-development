@@ -1,0 +1,76 @@
+﻿@model Social.Models.user_queries
+@{
+    ViewBag.Title = "admin_adduser";
+    Layout = "~/Adminpanel.cshtml";
+}
+<div class="container">
+<div class="" id="nav-addnew" role="tabpanel" aria-labelledby="nav-addnew-tab">
+    <br>
+    <h3>Add New Admin User</h3><hr />
+
+    <form method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="user_fname">First Name</label>
+            @Html.EditorFor(model => model.user_fname, new { htmlAttributes = new { @class = "form-control" }, id = "user_fname" })
+        </div>
+        <div class="form-group">
+            <label for="user_lname">Last Name</label>
+            @Html.EditorFor(model => model.user_lname, new { htmlAttributes = new { @class = "form-control" }, id = "user_lname" })
+        </div>
+        <div class="form-group">
+            <label for="user_email">Email</label>
+            @Html.EditorFor(model => model.user_email, new { htmlAttributes = new { @class = "form-control" }, id = "user_email" })
+        </div>
+        <div class="form-group">
+            <label for="user_pass">Password</label>
+            @Html.PasswordFor(model => model.user_pass, new { @class = "form-control",id= "user_pass" })
+        </div>
+        <div class="form-group">
+            <label for="user_contact">Contact</label>
+            @Html.EditorFor(model => model.user_contact, new { htmlAttributes = new { @class = "form-control" }, id = "user_contact" })
+        </div>
+        <div class="form-group">
+            <label for="user_gender">Gender</label>
+            @Html.DropDownListFor(model => model.user_gender, new List<SelectListItem>{
+
+                                                new SelectListItem{ Text="Choose", Value = "0" },
+                                                new SelectListItem{ Text="Male", Value = "Male" },
+                                                new SelectListItem{ Text="Female", Value = "Female" },
+                                                new SelectListItem{ Text="Other", Value = "Other" },
+                                   }, new { @class = "form-control", id = "user_gender" })
+        </div>
+        @*<div class="form-group">
+        <label for="user_gender">Select Category</label>
+
+        @Html.DropDownListFor(model => model.user_gender, new SelectList(ViewBag.adcat_list, "adcat_name", "adcat_name"), "Please Select",
+               new { @class = "form-control", id = "user_gender" })
+    </div>*@
+        <div class="form-group">
+            <label for="user_address">Adress</label>
+            @Html.TextAreaFor(model => model.user_address, new { @class = "form-control", @cols = 40, @rows = 3, id = "user_address" })
+        </div>
+        <div class="form-group">
+            <label for="user_city">City</label>
+            @Html.EditorFor(model => model.user_city, new { htmlAttributes = new { @class = "form-control" }, id = "user_city" })
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="file" name="user_img" id="user_img" />
+            </div>
+            <div class="form-group col-md-6">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+</div>
+        </div>

@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Social.Models.user_queries>
+@{
+    ViewBag.Title = "profiledetails";
+    Layout = "~/_LayoutPage1.cshtml";
+}
+<div class="row panel panel-success" style="margin-top:2%;">
+   
+    <div class="container">
+
+
+
+        <div class="row">
+
+            <div class="col-lg-11 col-md-11">
+
+                        <ul class="nav nav-tabs">
+                        @foreach (var item in Model)
+                        {
+                            <h2> @item.user_fname @item.user_lname</h2>
+                        }
+                               
+                        </ul>
+
+                      
+                             <div class="table-responsive">
+                                    <table class="table">
+                                        <tbody>
+                                           @foreach (var item in Model)
+                                           {
+
+
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-user"></i> First Name</td>
+                                               
+                                                <td>@item.user_fname</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-list-ol"></i> Last Name</td>
+                                                <td>@item.user_lname</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-book"></i> Email</td>
+                                                <td>@item.user_email</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-group"></i> Password</td>
+                                                <td>@item.user_pass</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-calendar"></i> Contact</td>
+                                                <td>@item.user_contact</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-university"></i> Gender</td>
+                                                <td>
+                                                    @item.user_gender
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-university"></i> Address</td>
+                                                <td>@item.user_address                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-university"></i> City</td>
+                                                <td>@item.user_city
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-dark"><i class="fa fa-university"></i> Budget</td>
+                                                <td>
+                                                    @item.user_budget
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-dark"><i class="fa fa-university"></i> Interest</td>
+                                            <td>
+                                                @item.interest_name
+                                                                                        </td>
+                                        </tr>
+                                           }
+                                          
+
+                                        </tbody>
+                                    </table>
+                           </div>
+
+                         
+
+                        
+
+                  
+            </div>
+        </div>
+        <!-- /.table-responsive -->
+
+    </div>
+</div>

@@ -1,0 +1,47 @@
+﻿@model  IEnumerable<Social.Models.user_queries>
+@{
+    ViewBag.Title = "admin_userlist";
+    Layout = "~/Adminpanel.cshtml";
+}
+
+<br />
+<h2>Registered Users</h2>
+<div class="table-responsive table-hover">
+    <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Contact</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Image</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+               <td>@item.user_id</td>
+                <td>@item.user_fname</td>
+                <td>@item.user_lname</td>
+                <td>@item.user_email</td>
+                <td>@item.user_pass</td>
+
+                <td>@item.user_contact</td>
+                <td>@item.user_gender</td>
+                <td>@item.user_address</td>
+                <td>@item.user_city</td>
+                <td><img src="~/Images/@item.user_imgpath" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                <td>@Html.ActionLink("User Ads & Details", "admin_userprofile", new { id = @item.user_id }, new { @class = "btn btn-dark btn-sm btn-outline-secondary" })</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

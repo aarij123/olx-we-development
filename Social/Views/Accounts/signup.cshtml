@@ -1,0 +1,103 @@
+﻿@model Social.Models.Admin_User
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>OLX | Sign up</title>
+    <link rel="icon" href="~/Assets/images/OLX_Logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Assets/css/floating-labels.css" rel="stylesheet" />
+</head>
+<body style="background-image: url('../../Assets/images/slider/slider-home5-1.jpg'); background-repeat:no-repeat; background-size:cover;">
+    <form class="form-signin" method="post" enctype="multipart/form-data">
+        <div class="text-center mb-4">
+          
+            <h1 class="h3 mb-3 font-weight-normal"><b>Sign up</b></h1>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputfname">First Name</label>
+     @Html.EditorFor(model => model.user_fname, new { htmlAttributes = new { @class = "form-control", placeholder = "Firstname" }, id = "inputfname" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputlname">Last Name</label>
+     @Html.EditorFor(model => model.user_lname, new { htmlAttributes = new { @class = "form-control", placeholder = "Lastname" }, id = "inputlname" })
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+     @Html.EditorFor(model => model.user_email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email" }, id = "inputemail" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+    @Html.PasswordFor(model => model.user_pass,  new { @class = "form-control", placeholder = "Password", id = "inputpassword" })
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputlcontact">Contact no</label>
+    @Html.EditorFor(model => model.user_contact, new { htmlAttributes = new { @class = "form-control", placeholder = "Contact" }, id = "inputcontact" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputgender">Gender</label>
+                
+                    @Html.DropDownListFor(model => model.user_gender, new List<SelectListItem>{
+                                                new SelectListItem{ Text="Choose", Value = "0" },
+                                                new SelectListItem{ Text="Male", Value = "Male" },
+                                                new SelectListItem{ Text="Female", Value = "Female" },
+                                                new SelectListItem{ Text="Other", Value = "Other" },
+                                   }, 
+                    new { @class = "custom-select", id = "inputgender" })
+                
+                </div>
+            </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputlcontact">Your Budget</label>
+                @Html.EditorFor(model => model.user_budget, new { htmlAttributes = new { @class = "form-control", placeholder = "Budget" }, id = "inputbudget" })
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputinterest">Interest</label>
+
+                @Html.DropDownListFor(model => model.interest_name, new SelectList(ViewBag.interest_list, "adcat_name", "adcat_name"), "Please Select",
+                   new { @class = "form-control", id = "interest" })
+
+            </div>
+        </div>
+
+
+            <div class="form-group">
+                <label for="inputAddress">Address</label>
+ @Html.TextAreaFor(model => model.user_address,  new { @class = "form-control", @cols = 40, @rows = 2, placeholder = "Address", id = "inputaddress" } )
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-7">
+                    <label for="inputCity">City</label>
+    @Html.EditorFor(model => model.user_city, new { htmlAttributes = new { @class = "form-control", placeholder="City" }, id = "inputcity" })
+                
+                </div>
+
+                <div class="form-group col-md-5">
+
+                    <label for="inputimg"> Upload Image </label>
+                    
+                    <input type="file" name="inputimage"  value="Upload Image" />
+                </div>
+            </div>
+
+            <center>       <button type="submit" class="btn btn-lg btn-dark">Sign up</button> </center>
+</form>
+    
+</body>
+</html>

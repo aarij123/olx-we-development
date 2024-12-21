@@ -1,0 +1,43 @@
+﻿@model  Social.Models.user_registration
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>OLX | Sign in</title>
+    <link rel="icon" href="~/Assets/images/OLX_Logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/Assets/css/floating-labels.css" rel="stylesheet" />
+</head>
+<body>
+  
+    <form class="form-signin" method="post" enctype="multipart/form-data">
+        <div class="text-center mb-4">
+         
+            <img class="mb-4" src="~/Assets/images/logo_sign.png" alt="" width="250" height="130">
+            <h1 class="h3 mb-3 font-weight-normal"><b>Sign in</b></h1>
+           
+        </div>
+        <div class="form-label-group">
+            @Html.EditorFor(model=>model.email, new { htmlAttributes = new { @class = "form-control" },id="inputEmail" })
+            <label for="inputEmail">Email address</label>
+        </div>
+        <div class="form-label-group">
+            @Html.PasswordFor(model => model.Password, new { @class = "form-control", id = "inputPassword" })
+            <label for="inputPassword">Password</label>
+        </div>
+   
+        <button class="btn btn-lg btn-dark btn-block" type="submit">Sign in</button>
+        <a class="btn btn-lg btn-dark btn-block" href="~/Accounts/signup">Sign up</a>
+        <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2018</p>
+    </form>
+</body>
+</html>

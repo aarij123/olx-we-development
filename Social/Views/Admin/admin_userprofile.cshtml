@@ -1,0 +1,221 @@
+﻿@model  Social.Models.ad
+@{
+    ViewBag.Title = "admin_userprofile";
+    Layout = "~/Adminpanel.cshtml";
+    var ad_list = ViewBag.userads_list;
+    var ad_sell = ViewBag.userads_sell;
+    var ad_buy = ViewBag.userads_buy;
+}
+<br /><br /><br /><hr /><h4 class="mb-3">User Profile</h4><hr />
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-8">
+
+
+            <br />
+            <div class="" id="profile">
+              
+                <div class="row">
+                   <div class="col-md-6">
+
+                            <h6>Firstname</h6>
+                            <p>
+                                @Model.user_fname
+                            </p>
+                            <h6>Lastname</h6>
+                            <p>
+                                @Model.user_lname
+                            </p>
+                            <h6>Email</h6>
+                            <p>
+                                @Model.user_email
+                            </p>
+                            <h6>Password</h6>
+                            <p>
+                                @Model.user_pass
+                            </p>
+                       <h6>Budget</h6>
+                       <p>
+                           @Model.user_budget
+                       </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Contact</h6>
+                            <p>
+                                @Model.user_contact
+                            </p>
+                            <h6>Gender</h6>
+                            <p>
+                                @Model.user_gender
+                            </p>
+                            <h6>Address</h6>
+                            <p>
+                                @Model.user_address
+                            </p>
+                            <h6>City</h6>
+                            <p>
+                                @Model.user_city
+                            </p>
+                            <h6>Interest</h6>
+                            <p>
+                                @Model.interest_name
+                            </p>
+                        </div>
+                    
+                </div>
+                <!--/row-->
+
+
+
+            </div><br /><br />
+         
+
+            
+        </div>
+        <div class="col-lg-4">
+            <br />
+                <img src="~/Images/@Model.user_imgpath" class="mx-auto img-fluid" alt="avatar" style="height:250px; width:230px;">
+
+            
+        </div>
+
+    </div>
+
+</div>
+
+<br /><br /><br />
+<br />
+<hr />
+<h4>Published Ads</h4>
+<hr />
+<div class="table-responsive table-hover">
+    <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>Ad ID</th>
+                <th>Ad Title</th>
+                <th>Ad Category</th>
+                <th>Ad Price</th>
+                <th>Ad Description</th>
+                <th>Ad Image 1</th>
+                <th>Ad Image 2</th>
+                <th>Ad Image 3</th>
+                <th>Ad Image 4</th>
+                <th>Ad Posted</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ad_list)
+            {
+                <tr>
+                    <td>@item.ad_id</td>
+                    <td>@item.ad_title</td>
+                    <td>@item.adcat_name</td>
+                    <td>@item.ad_price</td>
+                    <td>@item.ad_desc</td>
+                    <td><img src="~/Images/@item.ad_img1" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img2" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img3" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img4" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td>@item.ad_datetime</td>
+                
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<br /><br /><br />
+<br />
+<hr />
+<h4>Sold Ads</h4>
+<hr />
+<div class="table-responsive table-hover">
+    <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>Ad ID</th>
+                <th>Ad Title</th>
+                <th>Ad Category</th>
+                <th>Ad Price</th>
+                <th>Ad Description</th>
+                <th>Ad Image 1</th>
+                <th>Ad Image 2</th>
+                <th>Ad Image 3</th>
+                <th>Ad Image 4</th>
+                <th>Ad Posted</th>
+                <th>Buyer Name</th>
+                <th>Buyer Profile</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ad_sell)
+            {
+                <tr>
+                    <td>@item.ad_id</td>
+                    <td>@item.ad_title</td>
+                    <td>@item.adcat_name</td>
+                    <td>@item.ad_price</td>
+                    <td>@item.ad_desc</td>
+                    <td><img src="~/Images/@item.ad_img1" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img2" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img3" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img4" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td>@item.ad_datetime</td>
+                    <td>@item.user_fname @item.user_lname</td>
+                    <td>   @Html.ActionLink("Buyer", "admin_userprofile", new { id = @item.user_id }, new { @class = "btn btn-dark btn-sm btn-outline-secondary" })</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<br /><br /><br />
+<br />
+<hr />
+<h4>Buyed Ads</h4>
+<hr />
+
+<div class="table-responsive table-hover">
+    <table class="table table-striped table-sm">
+        <thead>
+            <tr>
+                <th>Ad ID</th>
+                <th>Ad Title</th>
+                <th>Ad Category</th>
+                <th>Ad Price</th>
+                <th>Ad Description</th>
+                <th>Ad Image 1</th>
+                <th>Ad Image 2</th>
+                <th>Ad Image 3</th>
+                <th>Ad Image 4</th>
+                <th>Ad Posted</th>
+                <th>Seller Name</th>
+                <th>Seller Profile</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ad_buy)
+            {
+                <tr>
+                    <td>@item.ad_id</td>
+                    <td>@item.ad_title</td>
+                    <td>@item.adcat_name</td>
+                    <td>@item.ad_price</td>
+                    <td>@item.ad_desc</td>
+                    <td><img src="~/Images/@item.ad_img1" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img2" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img3" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td><img src="~/Images/@item.ad_img4" class="mx-auto img-fluid" alt="avatar" style="height:50px; width:70px;"> </td>
+                    <td>@item.ad_datetime</td>
+                    <td>@item.user_fname @item.user_lname</td>
+                    <td>   @Html.ActionLink("Seller", "admin_userprofile", new { id = @item.user_id }, new { @class = "btn btn-dark btn-sm btn-outline-secondary" })</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
